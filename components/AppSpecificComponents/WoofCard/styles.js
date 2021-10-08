@@ -10,13 +10,10 @@ const styles = StyleSheet.create({
     borderColor: '#E7E3EB',
     borderStyle: 'solid',
     borderRadius: 12,
+    marginRight: 16,
+    overflow: 'scroll'
   },
-  title: {
-    color: 'red',
-    fontSize: 12,
-    lineHeight: 14,
-    textTransform: 'uppercase'
-  },
+
 });
 
 export default styles

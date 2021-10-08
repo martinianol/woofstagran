@@ -7,7 +7,7 @@ import styles from "./styles";
 const WoofCard = (props) => (
   <View style={styles.card}>
     <Avatar url={props.url} />
-    <Title style={{ textTransform: 'uppercase' }}>{props.name}</Title>
+    <Title>{props.name}</Title>
   </View>
 );
 
