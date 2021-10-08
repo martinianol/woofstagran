@@ -5,9 +5,10 @@ import Title from "../../Basic Components/Title";
 import styles from "./styles";
 
 const WoofCard = (props) => (
-  <View>
-    <Avatar />
-    <Title>Todo</Title>
+  <View style={styles.card}>
+    <Avatar url={props.url} />
+    <Title style={{ textTransform: 'uppercase' }}>{props.name}</Title>
   </View>
 );
 
+export default WoofCard;
