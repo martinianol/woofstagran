@@ -1,7 +1,7 @@
 import React from "react";
 import { View } from "react-native";
 import styles from "./styles";
-import WoofPost from "../AppSpecificComponents/WoofPost/WoofPost";
+import WoofPost from "../WoofPost/WoofPost";
 
 const WoofPostContainer = (props) => (
   <View style={styles.container}>

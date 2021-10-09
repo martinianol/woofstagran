@@ -12,18 +12,20 @@ const styles = StyleSheet.create({
   content: {
     flex: 2,
     padding: 12,
-    flexWrap: 'wrap'
+    flexWrap: 'wrap',
+    alignItems: "flex-start"
   },
   title: {
     fontSize: 12,
     lineHeight: 14.4,
+    fontFamily: 'Kanit',
     fontWeight: '600',
     color: '#280D5F',
     textTransform: 'uppercase',
     flexShrink: 1
   },
   description: {
-    fontFamily: 'Open Sans',
+    fontFamily: 'OpenSans',
     fontWeight: '400',
     fontSize: 12,
     lineHeight: 18,

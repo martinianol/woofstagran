@@ -2,7 +2,7 @@ import React from "react";
 import { View, ScrollView } from "react-native";
 import Heading from "./Basic Components/Heading";
 import WoofCardsContainer from "./AppSpecificComponents/WoofCard Container/WoofCardsContainer";
-import WoofPostContainer from "./WoofPostContainer/WoofPostContainer";
+import WoofPostContainer from "./AppSpecificComponents/WoofPostContainer/WoofPostContainer";
 
 // The screen rendering everything
 const HomeScreen = () => (
