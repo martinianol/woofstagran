@@ -1,5 +1,5 @@
 import React from "react";
-import { View, ScrollView } from "react-native";
+import { View, ScrollView, FlatList } from "react-native";
 import Heading from "./Basic Components/Heading";
 import WoofCardsContainer from "./AppSpecificComponents/WoofCard Container/WoofCardsContainer";
 import WoofPostContainer from "./AppSpecificComponents/WoofPostContainer/WoofPostContainer";
