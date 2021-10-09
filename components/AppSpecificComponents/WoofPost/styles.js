@@ -18,14 +18,14 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 12,
     lineHeight: 14.4,
-    fontFamily: 'Kanit',
+    /* fontFamily: 'Kanit', */
     fontWeight: '600',
     color: '#280D5F',
     textTransform: 'uppercase',
     flexShrink: 1
   },
   description: {
-    fontFamily: 'OpenSans',
+    /* fontFamily: 'OpenSans', */
     fontWeight: '400',
     fontSize: 12,
     lineHeight: 18,

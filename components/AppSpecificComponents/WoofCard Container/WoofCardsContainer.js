@@ -2,15 +2,19 @@ import React from "react";
 import { View } from "react-native";
 import styles from "./styles";
 import WoofCard from "../WoofCard/WoofCard";
-
+import data from "../../../data/data";
 
 const WoofCardsContainer = (props) => (
   <View style={styles.container}>
-    <WoofCard url="https://picsum.photos/64/64" name="rex" />
-    <WoofCard url="https://picsum.photos/64/64" name="ted" />
-    <WoofCard url="https://picsum.photos/64/64" name="dan" />
-    <WoofCard url="https://picsum.photos/64/64" name="sam" />
-    <WoofCard url="https://picsum.photos/64/64" name="sun" />
+    {data.woofs.map((woof) => {
+      return (
+        <WoofCard
+          url={woof.avatar}
+          name={woof.name}
+          key={woof.id} />
+      )
+    })
+    }
   </View>
 );
 

@@ -4,10 +4,10 @@ import styles from "./styles";
 
 const WoofPost = (props) => (
   <View style={styles.layout}>
-    <Image source={{ uri: props.url }} style={styles.image} />
+    <Image source={{ uri: props.image }} style={styles.image} />
     <View style={styles.content}>
-      <Text style={styles.title}>happy woofs</Text>
-      <Text style={styles.description}>How to keep your Woof happy and healthy. We’ve asked some of ...</Text>
+      <Text style={styles.title}>{props.title}</Text>
+      <Text style={styles.description}>{props.description}</Text>
     </View>
   </View>
 );

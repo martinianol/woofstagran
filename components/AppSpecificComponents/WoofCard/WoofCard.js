@@ -7,7 +7,7 @@ import styles from "./styles";
 const WoofCard = (props) => (
   <View style={styles.card}>
     <Avatar url={props.url} />
-    <Title>{props.name}</Title>
+    <Title name={props.name}></Title>
   </View>
 );
 

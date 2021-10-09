@@ -4,7 +4,7 @@ import styles from "./Styles";
 
 const Title = (props) => (
   <Text style={styles.title}>
-    {props.children}
+    {props.name}
   </Text>
 );
 
