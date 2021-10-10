@@ -11,11 +11,9 @@ const SignUpScreen = () => {
     <ScrollView >
       <Heading>Sign Up</Heading>
       <Button
-        title="Home"
-        onPress={() => nav.navigate('Home')}
+        title="Main"
+        onPress={() => nav.navigate('Main')}
       />
-
-
     </ScrollView>
   )
 };

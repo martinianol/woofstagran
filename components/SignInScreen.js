@@ -13,7 +13,7 @@ const SignInScreen = () => {
       <Heading>Sign In</Heading>
       <Button
         title="Sign Up"
-        onPress={() => nav.navigate('Sign Up')}
+        onPress={() => nav.navigate('SignUp')}
       />
     </ScrollView>
   )
